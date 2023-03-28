@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/base-info/base-info",
+    "pages/school-experience/school-experience",
+    "pages/school-experience/school-experience-about",
+    "pages/work-experience/work-experience",
+    "pages/work-experience/work-content",
+    "pages/work-experience/work-performance",
+    "pages/project-experience/project-experience",
+    "pages/project-experience/project-describe",
+    "pages/project-experience/project-achievements",
+    "pages/professional/professional",
+    "pages/self-evaluation/self-evaluation",
+    "pages/resume/detail",
+    "pages/resume/preview",
+    "pages/resume-template/resume-template"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#00d2ca",
+    "navigationBarTitleText": "简历小助手",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="footer-btn"><view class="submit-body"><view data-event-opts="{{[['tap',[['submitHandle',['$event']]]]]}}" class="submit-btn" bindtap="__e"><slot name="text"></slot></view></view></view>

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom",
+    "header-title": "/components/header-title/header-title",
+    "row-item": "/components/row-item/row-item",
+    "cc-picker": "/components/cc-picker/cc-picker",
+    "footer-btn": "/components/footer-btn/footer-btn",
+    "education-item": "/components/row-item/row-item",
+    "range-date-pick": "/components/range-picker/range-picker"
+  }
+}

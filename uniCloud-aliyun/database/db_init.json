@@ -1,0 +1,84 @@
+{
+    "resume": {
+        "data": [],
+        "index": [
+            {
+                "IndexName": "resume_openid_index_",
+                "MgoKeySchema": {
+                    "MgoIndexKeys": [
+                        {
+                            "Name": "_openid",
+                            "Direction": "1"
+                        }
+                    ],
+                    "MgoIsUnique": false
+                }
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                }
+            }
+        }
+    },
+	"resume-template": {
+	    "data": [
+	        {
+	            "_id": {
+	                "$oid": "6399640b819ce89e5082929c"
+	            },
+	            "name": "默认模板",
+	            "cover": "https://mp-57be0d4d-542b-4c28-ae54-2b409b120e94.cdn.bspapp.com/cloudstorage/15fc04bf-eac3-4077-aa35-0a22192ea0b1.jpg",
+	            "default": true,
+	            "createdate": 1670992451061,
+	            "userid": {
+	                "$oid": "639145b5e1a35c299dfa7580"
+	            },
+	            "price": 0,
+	            "sort": 9999
+	        },
+	        {
+	            "_id": {
+	                "$oid": "63a54ecff5cf3ae96e853302"
+	            },
+	            "name": "模板1",
+	            "cover": "https://mp-57be0d4d-542b-4c28-ae54-2b409b120e94.cdn.bspapp.com/cloudstorage/f36bb466-0bd1-4793-beb0-cb939c9ce247.jpg",
+	            "default": false,
+	            "createdate": 1670992451061,
+	            "userid": {
+	                "$oid": "639145b5e1a35c299dfa7580"
+	            },
+	            "price": 0,
+	            "sort": 1
+	        }
+	    ],
+	    "schema": {
+	        "bsonType": "object",
+	        "required": [],
+	        "permission": {
+	            "read": false,
+	            "create": false,
+	            "update": false,
+	            "delete": false
+	        },
+	        "properties": {
+	            "_id": {
+	                "description": "ID，系统自动生成"
+	            }
+	        }
+	    }
+	},
+    "uni-id-users": {
+        "data": []
+    }
+}

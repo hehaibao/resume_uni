@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom",
+    "resume-list": "/components/resume-list/resume-list",
+    "empty-page": "/components/empty-page/empty-page",
+    "footer-btn": "/components/footer-btn/footer-btn"
+  }
+}

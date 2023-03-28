@@ -1,0 +1,1 @@
+<picker class="from-picker arrow" value="{{Index}}" range="{{Range}}" data-event-opts="{{[['change',[['change',['$event']]]]]}}" bindchange="__e"><view class="picker"><block wx:if="{{Value}}"><text>{{''+Value+''}}</text></block><block wx:else><text class="picker-info">{{''+(null_str||'请选择')+''}}</text></block></view></picker>

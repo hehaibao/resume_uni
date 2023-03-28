@@ -1,0 +1,29 @@
+.footer-btn {
+  margin-top: 40rpx;
+  height: 160rpx;
+}
+.footer-btn .submit-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 22;
+}
+.footer-btn .submit-body .submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00d2ca;
+  color: #fff;
+  letter-spacing: 4rpx;
+  font-size: 34rpx;
+  height: 90rpx;
+  width: 90%;
+  border-radius: 100rpx;
+}
+

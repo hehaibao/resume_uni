@@ -1,0 +1,47 @@
+.education .form-body .input {
+  position: relative;
+  width: 100%;
+  padding-right: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.education .form-body .input-placeholder {
+  color: #9a9a9a;
+  font-size: 28rpx;
+}
+.education .form-body .arrow::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  color: #999;
+  content: "\e6a3";
+  text-align: center;
+  font-size: 34rpx;
+  font-family: cuIcon;
+}
+.education .form-body .from-picker {
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+.education .form-body .from-picker .picker-info {
+  color: #9a9a9a;
+  font-size: 42rpx;
+}
+.education .form-body .row-item-box {
+  margin-bottom: 40rpx;
+}
+.education .form-body .add-btn {
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  color: #00d2ca;
+}
+

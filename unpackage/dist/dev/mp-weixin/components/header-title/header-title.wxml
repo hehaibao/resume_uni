@@ -1,0 +1,1 @@
+<view class="header"><view class="title"><slot name="title"></slot></view><view class="info"><slot name="info"></slot></view></view>

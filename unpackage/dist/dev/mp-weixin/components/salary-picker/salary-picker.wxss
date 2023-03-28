@@ -1,0 +1,19 @@
+salary-picker {
+  width: 100%;
+}
+.from-picker {
+  width: 100%;
+}
+.from-picker .picker {
+  line-height: 110rpx;
+  text-align: right;
+  height: 100%;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: right;
+}
+

@@ -1,0 +1,10 @@
+.from-picker {
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+.from-picker .picker-info {
+  color: #9a9a9a;
+  font-size: 28rpx;
+}
+

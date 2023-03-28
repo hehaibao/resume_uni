@@ -1,0 +1,88 @@
+.pickerMask {
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.r-dtpicker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  z-index: 998;
+}
+.r-dtpicker-show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.rdtBtn {
+  display: flex;
+  padding: 9px 15px;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 17px;
+}
+.rdtBtn:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.rdtBtn view {
+  display: block;
+  flex: 1;
+  color: #1aad19;
+}
+.rdtBtn view:first-child {
+  text-align: left;
+  color: #888;
+}
+.rdtBtn view:last-child {
+  text-align: right;
+}
+.picker-item {
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+.mpvue-picker-view {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 238px;
+  background-color: #fff;
+}
+.rangeBox {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 16px;
+  align-items: center;
+}
+.rangeBox input {
+  width: 180rpx;
+  margin: 0 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  min-height: auto;
+  border-bottom: 1px solid #333;
+}
+

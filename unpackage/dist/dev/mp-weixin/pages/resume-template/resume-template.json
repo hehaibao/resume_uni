@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "选择简历模板",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom",
+    "empty-page": "/components/empty-page/empty-page"
+  }
+}

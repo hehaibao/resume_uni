@@ -1,0 +1,101 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{ 
+			"path": "pages/index/index"
+		},
+		{ 
+			"path": "pages/base-info/base-info"
+		},
+		{ 
+			"path": "pages/school-experience/school-experience"
+		},
+		{ 
+			"path": "pages/school-experience/school-experience-about"
+		},
+		{ 
+		    "path": "pages/work-experience/work-experience",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/work-experience/work-content",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/work-experience/work-performance",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/project-experience/project-experience",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/project-experience/project-describe",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/project-experience/project-achievements",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/professional/professional",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/self-evaluation/self-evaluation",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path": "pages/resume/detail",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path": "pages/resume/preview",
+		    "style": {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path": "pages/resume-template/resume-template",
+			"style": {
+			    "navigationBarTitleText": "选择简历模板",
+			    "enablePullDownRefresh": false,
+			    "onReachBottomDistance": 50
+			}
+		}
+		
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#00d2ca",
+		"navigationBarTitleText": "简历小助手",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	}
+}

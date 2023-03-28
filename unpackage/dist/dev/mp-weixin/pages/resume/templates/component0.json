@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom"
+  },
+  "component": true
+}

@@ -1,0 +1,11 @@
+.head-custom .action {
+  color: #fff;
+}
+.head-custom .content {
+  color: #fff;
+  font-size: 32rpx;
+}
+.add-height {
+  background-color: #00d2ca;
+}
+

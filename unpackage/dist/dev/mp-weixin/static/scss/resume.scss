@@ -1,0 +1,285 @@
+.resume-info {
+	position: relative;
+
+	.body {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.bg-height {
+			width: 100%;
+			height: 200upx;
+			background-color: $index-color;
+		}
+
+		.info-body {
+			background-color: #fff;
+			width: 96%;
+			min-height: 200upx;
+			position: relative;
+			border-radius: 20upx;
+			display: flex;
+			flex-direction: column;
+
+			.info-userinfo {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding: 20upx 40upx 10upx;
+				height: 110upx;
+				box-sizing: content-box;
+
+				.material {
+					color: $font-c10;
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+
+					.name {
+						font-size: 32upx;
+						font-weight: 700;
+						text {
+							margin-left: 10upx;
+						}
+						.cuIcon-male {
+							color: #007AFF;
+						}
+						.cuIcon-female {
+							color: #F9BDBC;
+						}
+					}
+
+					.data {
+						font-size: 28upx;
+						.sp {
+							color: #ccc;
+							margin: 0 10rpx;
+						}
+					}
+					
+					.resume-time {
+						color: $font-c9;
+						font-size: 24upx;
+						margin-left: 30rpx;
+					}
+					
+					&.w100 {
+						width: 100%;
+						.name {
+							font-size: 36upx;
+						}
+					}
+				}
+			}
+			&.my {
+				top: 0;
+				width: 100%;
+			}
+		}
+		
+		.my .header-title {
+			.title {
+				padding-left: 0!important;
+				&::before {
+					background-color: transparent!important;
+				}
+			}
+		}
+
+		.content {
+			padding: 16upx 40upx;
+			color: $font-c10;
+
+			.icon {
+				color: #535353;
+				font-size: 38upx;
+			}
+
+			.text {
+				color: #535353;
+				font-size: 30upx;
+			}
+
+			.edit {
+				color: $index-color;
+				font-size: 30upx;
+				text {
+					margin-right: 4upx;
+				}
+			}
+			
+			.progress {
+				text-align: right;
+				background-color: #f2f2f2;
+				height: 35rpx;
+				line-height: 35rpx;
+				position: relative;
+				border-radius: 40rpx;
+				.progress-bar {
+					height: 100%;
+					width: 0;
+					position: absolute;
+					left: 0;
+					top: 0;
+					z-index: 2;
+					background-image: linear-gradient(45deg, #00d2ca, #f0ad4e);
+					border-radius: 40rpx;
+				}
+				.progress-txt {
+					position: absolute;
+					top: 0;
+					right: 15rpx;
+					z-index: 3;
+					font-size: 20rpx;
+				}
+			}
+			
+			.number-info {
+				
+				.state-body,
+				.phone,
+				.email,
+				.wx {
+					position: relative;
+					line-height: 56upx;
+					display: flex;
+					align-items: center;
+
+					.text {
+						margin-left: 16upx;
+						flex: 1;
+					}
+				}
+
+				.state-body {
+					padding-bottom: 30upx;
+				}
+			}
+
+			.job-intention-body.body-info {
+				.job-intention-item {
+					.value {
+						color: #f0ad4e;
+						font-weight: bold;
+						font-size: 30upx;
+					}
+				}
+			}
+
+			.form-body.body-info {
+				.row-item {
+					.value {
+						color: $font-c9;
+					}
+				}
+			}
+
+			.body-info {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				padding: 20upx 0;
+
+				&>view:not(.header-title) {
+					padding-left: 10upx;
+				}
+
+				.header-title {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					.title {
+						font-size: 32upx;
+						font-weight: 700;
+						color: $font-c10;
+						position: relative;
+						padding-left: 30upx;
+
+						&::before {
+							content: " ";
+							position: absolute;
+							left: 0;
+							top: 0;
+							bottom: 0;
+							width: 12upx;
+							height: 100%;
+							background-color: $index-color;
+						}
+						
+						.ok {
+							color: #22AC38;
+							margin-left: 15rpx;
+						}
+					}
+				}
+
+				.body-item {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					padding-top: 20upx;
+					margin-top: 20rpx;
+					border-top: 1rpx dotted #ddd;
+					word-break: break-word;
+
+					.key {
+						width: 60%;
+						font-size: 32upx;
+						color: $font-c10;
+					}
+
+					.value {
+						font-size: 24upx;
+						color: $font-c9;
+					}
+				}
+
+				.body-footer {
+					padding-top: 20upx;
+					color: $font-c9;
+					font-size: 28upx;
+				}
+
+				.cpywriting-body {
+					.cpywriting-item {
+						display: flex;
+						flex-direction: column;
+						padding-top: 20upx;
+
+						.cpywriting-title {
+							font-size: 32upx;
+							color: $font-c10;
+						}
+
+						.cpywriting-info {
+							margin-top: 8upx;
+							font-size: 28upx;
+							color: $font-c9;
+						}
+					}
+				}
+			}
+		}
+	}
+	.to-home-body {
+		position: fixed;
+		bottom: 100upx;
+		right: 40upx;
+		border-radius: 50%;
+		width: 80upx;
+		height: 80upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: $index-color;
+	
+		.to-home-icon {
+			font-size: 52upx;
+			font-weight: bold;
+			color: #fff;
+		}
+	}
+}

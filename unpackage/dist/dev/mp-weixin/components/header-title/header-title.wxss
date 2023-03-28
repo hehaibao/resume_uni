@@ -1,0 +1,13 @@
+.header {
+  padding: 30rpx 30rpx 24rpx;
+}
+.header .title {
+  color: #101010;
+  font-size: 40rpx;
+}
+.header .info {
+  color: #9a9a9a;
+  font-size: 28rpx;
+  line-height: 56rpx;
+}
+

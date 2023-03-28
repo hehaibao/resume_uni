@@ -1,0 +1,1 @@
+<picker class="from-picker" mode="multiSelector" value="{{pickerValue}}" range="{{salaryList}}" data-event-opts="{{[['change',[['salaryMultiChange',['$event']]]],['columnchange',[['salaryMultiColumnChange',['$event']]]]]}}" bindchange="__e" bindcolumnchange="__e"><view class="picker">{{''+$root.m0+''}}</view></picker>

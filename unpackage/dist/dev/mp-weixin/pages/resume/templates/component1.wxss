@@ -1,0 +1,252 @@
+.resume-info {
+  position: relative;
+}
+.resume-info .body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-info .body .bg-height {
+  width: 100%;
+  height: 200rpx;
+  background-color: #00d2ca;
+}
+.resume-info .body .info-body {
+  background-color: #fff;
+  width: 96%;
+  min-height: 200rpx;
+  position: relative;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.resume-info .body .info-body .info-userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 40rpx 10rpx;
+  height: 110rpx;
+  box-sizing: content-box;
+}
+.resume-info .body .info-body .info-userinfo .material {
+  color: #101010;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.resume-info .body .info-body .info-userinfo .material .name {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.resume-info .body .info-body .info-userinfo .material .name text {
+  margin-left: 10rpx;
+}
+.resume-info .body .info-body .info-userinfo .material .name .cuIcon-male {
+  color: #007AFF;
+}
+.resume-info .body .info-body .info-userinfo .material .name .cuIcon-female {
+  color: #F9BDBC;
+}
+.resume-info .body .info-body .info-userinfo .material .data {
+  font-size: 28rpx;
+}
+.resume-info .body .info-body .info-userinfo .material .data .sp {
+  color: #ccc;
+  margin: 0 10rpx;
+}
+.resume-info .body .info-body .info-userinfo .material .resume-time {
+  color: #9a9a9a;
+  font-size: 24rpx;
+  margin-left: 30rpx;
+}
+.resume-info .body .info-body .info-userinfo .material.w100 {
+  width: 100%;
+}
+.resume-info .body .info-body .info-userinfo .material.w100 .name {
+  font-size: 36rpx;
+}
+.resume-info .body .info-body.my {
+  top: 0;
+  width: 100%;
+}
+.resume-info .body .my .header-title .title {
+  padding-left: 0 !important;
+}
+.resume-info .body .my .header-title .title::before {
+  background-color: transparent !important;
+}
+.resume-info .body .content {
+  padding: 16rpx 40rpx;
+  color: #101010;
+}
+.resume-info .body .content .icon {
+  color: #535353;
+  font-size: 38rpx;
+}
+.resume-info .body .content .text {
+  color: #535353;
+  font-size: 30rpx;
+}
+.resume-info .body .content .edit {
+  color: #00d2ca;
+  font-size: 30rpx;
+}
+.resume-info .body .content .edit text {
+  margin-right: 4rpx;
+}
+.resume-info .body .content .progress {
+  text-align: right;
+  background-color: #f2f2f2;
+  height: 35rpx;
+  line-height: 35rpx;
+  position: relative;
+  border-radius: 40rpx;
+}
+.resume-info .body .content .progress .progress-bar {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-image: linear-gradient(45deg, #00d2ca, #f0ad4e);
+  border-radius: 40rpx;
+}
+.resume-info .body .content .progress .progress-txt {
+  position: absolute;
+  top: 0;
+  right: 15rpx;
+  z-index: 3;
+  font-size: 20rpx;
+}
+.resume-info .body .content .number-info .state-body,
+.resume-info .body .content .number-info .phone,
+.resume-info .body .content .number-info .email,
+.resume-info .body .content .number-info .wx {
+  position: relative;
+  line-height: 56rpx;
+  display: flex;
+  align-items: center;
+}
+.resume-info .body .content .number-info .state-body .text,
+.resume-info .body .content .number-info .phone .text,
+.resume-info .body .content .number-info .email .text,
+.resume-info .body .content .number-info .wx .text {
+  margin-left: 16rpx;
+  flex: 1;
+}
+.resume-info .body .content .number-info .state-body {
+  padding-bottom: 30rpx;
+}
+.resume-info .body .content .job-intention-body.body-info .job-intention-item .value {
+  color: #f0ad4e;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.resume-info .body .content .form-body.body-info .row-item .value {
+  color: #9a9a9a;
+}
+.resume-info .body .content .body-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+}
+.resume-info .body .content .body-info > view:not(.header-title) {
+  padding-left: 10rpx;
+}
+.resume-info .body .content .body-info .header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume-info .body .content .body-info .header-title .title {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #101010;
+  position: relative;
+  padding-left: 30rpx;
+}
+.resume-info .body .content .body-info .header-title .title::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 12rpx;
+  height: 100%;
+  background-color: #00d2ca;
+}
+.resume-info .body .content .body-info .header-title .title .ok {
+  color: #22AC38;
+  margin-left: 15rpx;
+}
+.resume-info .body .content .body-info .body-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20rpx;
+  margin-top: 20rpx;
+  border-top: 1rpx dotted #ddd;
+  word-break: break-word;
+}
+.resume-info .body .content .body-info .body-item .key {
+  width: 60%;
+  font-size: 32rpx;
+  color: #101010;
+}
+.resume-info .body .content .body-info .body-item .value {
+  font-size: 24rpx;
+  color: #9a9a9a;
+}
+.resume-info .body .content .body-info .body-footer {
+  padding-top: 20rpx;
+  color: #9a9a9a;
+  font-size: 28rpx;
+}
+.resume-info .body .content .body-info .cpywriting-body .cpywriting-item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20rpx;
+}
+.resume-info .body .content .body-info .cpywriting-body .cpywriting-item .cpywriting-title {
+  font-size: 32rpx;
+  color: #101010;
+}
+.resume-info .body .content .body-info .cpywriting-body .cpywriting-item .cpywriting-info {
+  margin-top: 8rpx;
+  font-size: 28rpx;
+  color: #9a9a9a;
+}
+.resume-info .to-home-body {
+  position: fixed;
+  bottom: 100rpx;
+  right: 40rpx;
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00d2ca;
+}
+.resume-info .to-home-body .to-home-icon {
+  font-size: 52rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.tpl1 .info-body {
+  width: 100% !important;
+}
+.tpl1 .header-title {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.tpl1 .header-title .title::before {
+  background-color: #333 !important;
+}
+.tpl1 .job-intention-item .value {
+  color: #00d2ca !important;
+}
+

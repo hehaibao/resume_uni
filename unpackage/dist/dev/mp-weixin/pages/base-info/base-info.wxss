@@ -1,0 +1,82 @@
+.base-info {
+  background-color: #f2f2f2;
+}
+.base-info .cu-list.from-body.cu-list + .cu-list {
+  margin-top: 0rpx;
+}
+.base-info .cu-list.from-body .from-item.from-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 110rpx;
+  overflow: hidden;
+}
+.base-info .cu-list.from-body .from-item.from-item.arrow {
+  padding-right: 50rpx;
+}
+.base-info .cu-list.from-body .from-item.from-item.arrow::before {
+  right: 22rpx;
+}
+.base-info .cu-list.from-body .from-item.from-item:last-child::after {
+  border: none;
+}
+.base-info .cu-list.from-body .from-item.from-item::after {
+  border-bottom: 4rpx solid #ddd;
+  width: calc(200% - 110rpx);
+}
+.base-info .cu-list.from-body .from-item.from-item .from-content {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  min-height: 100rpx;
+  justify-content: space-between;
+  flex: 0 1 auto;
+  height: 100%;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-content .from-title {
+  text-align: justify;
+  padding-left: 0rpx;
+  font-size: 32rpx;
+  position: relative;
+  color: #101010;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-action {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-action .form-avatar {
+  width: 76rpx;
+  height: 76rpx;
+  display: flex;
+  align-items: center;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-action .from-input {
+  flex: 1;
+  font-size: 28rpx;
+  color: #101010;
+  text-align: right;
+  overflow: hidden;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-action .from-picker {
+  width: 100%;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-action .from-picker .picker {
+  line-height: 110rpx;
+  height: 100%;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: right;
+}
+.base-info .cu-list.from-body .from-item.from-item .from-action .from-picker .placeholder-picker {
+  color: gray;
+  font-size: 28rpx;
+}
+

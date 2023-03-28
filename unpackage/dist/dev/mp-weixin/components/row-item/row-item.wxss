@@ -1,0 +1,31 @@
+.row-item {
+  padding: 30rpx 20rpx 0 30rpx;
+  position: relative;
+}
+.row-item::after {
+  width: calc(200% - 100rpx);
+  position: absolute;
+  top: 0;
+  left: 30rpx;
+  box-sizing: border-box;
+  height: 200%;
+  border-bottom: 5rpx solid #ddd;
+  border-radius: inherit;
+  content: " ";
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  pointer-events: none;
+}
+.row-item .info-title {
+  color: #101010;
+  font-size: 32rpx;
+}
+.row-item .info-from {
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+

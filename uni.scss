@@ -1,0 +1,116 @@
+$index-color: #00d2ca;
+$index-bg-gray: #f2f2f2;
+
+// 边框颜色
+$border-c: #ddd;
+
+// 字体颜色
+$font-c10: #101010;
+$font-c9: #9a9a9a;
+
+// 表单的公共样式
+@mixin formStyle {
+	.form-body {
+		.input {
+			position: relative;
+			width: 100%;
+			padding-right: 40upx;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		.input-placeholder {
+			color: $font-c9;
+			font-size: 28upx;
+		}
+	
+		.arrow::after {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			display: block;
+			margin: auto;
+			width: 30upx;
+			height: 30upx;
+			line-height: 30upx;
+			color: #999;
+			content: "\e6a3";
+			text-align: center;
+			font-size: 34upx;
+			font-family: cuIcon;
+		}
+	
+		.from-picker {
+			text-align: left;
+			width: 100%;
+			position: relative;
+	
+			.picker-info {
+				color: $font-c9;
+				font-size: 42upx;
+			}
+		}
+		.row-item-box {
+			margin-bottom: 40rpx;
+		}
+		.add-btn {
+			padding: 0 30rpx;
+			font-size: 28rpx;
+			color: $index-color;
+		}
+	}
+}
+
+// 按钮样式
+@mixin btnStyle($bottom: 40upx) {
+	.foot {
+		width: 100%;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: $bottom;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.foot-btn {
+			width: 340upx;
+			height: 90upx;
+			line-height: 90upx;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 70upx;
+			color: #fff;
+			font-size: 36upx;
+			background-color: $index-color;
+			text-align: center;
+			letter-spacing: 4upx;
+			&.circle {
+				width: 90upx;
+			}
+			&.preview {
+				margin-right: 40upx;
+				background-color: #f0ad4e;
+			}
+		}
+	}
+}
+
+@mixin button-init {
+	button {
+		background-color: transparent;
+		border-radius: 0;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		line-height: 1;
+		overflow: visible;
+		color: atuo;
+		&::after {
+			border: none;
+		}
+	}
+}

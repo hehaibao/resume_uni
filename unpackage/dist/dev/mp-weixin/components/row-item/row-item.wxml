@@ -1,0 +1,1 @@
+<view class="row-item"><view class="info-title"><slot name="title"></slot></view><view class="info-from"><slot name="from"></slot></view></view>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom",
+    "header-title": "/components/header-title/header-title",
+    "form-textarea": "/components/form-textarea/form-textarea",
+    "footer-btn": "/components/footer-btn/footer-btn",
+    "form-txtarea": "/components/form-textarea/form-textarea"
+  }
+}

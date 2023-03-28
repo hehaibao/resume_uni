@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "head-custom": "/components/head-custom/head-custom",
+    "cc-picker": "/components/cc-picker/cc-picker",
+    "salary-picker": "/components/salary-picker/salary-picker",
+    "footer-btn": "/components/footer-btn/footer-btn"
+  }
+}

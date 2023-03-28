@@ -1,0 +1,1 @@
+<view class="resume-component-box"><block wx:if="{{tplIndex==0}}"><component0 vue-id="0c66ab47-1" resumeInfo="{{resumeInfo}}" isShare="{{isShare}}" bind:__l="__l"></component0></block><block wx:if="{{tplIndex==1}}"><component1 vue-id="0c66ab47-2" resumeInfo="{{resumeInfo}}" isShare="{{isShare}}" bind:__l="__l"></component1></block></view>
